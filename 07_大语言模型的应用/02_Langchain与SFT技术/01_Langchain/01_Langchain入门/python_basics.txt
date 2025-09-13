@@ -1,0 +1,25 @@
+# Python 基础语法总结
+1. 变量定义：Python 中无需声明变量类型，直接赋值即可，如 x = 10（整数）、name = "LangChain"（字符串）。
+2. 条件语句：使用 if-elif-else 结构，注意缩进（4个空格），如：
+   if x > 0:
+       print("x 是正数")
+   elif x == 0:
+       print("x 是零")
+   else:
+       print("x 是负数")
+3. 循环语句：for 循环用于遍历序列（如列表、字符串），while 循环用于条件循环。示例：
+   # for 循环遍历列表
+   fruits = ["apple", "banana", "cherry"]
+   for fruit in fruits:
+       print(fruit)
+   # while 循环计算 1~10 的和
+   sum = 0
+   i = 1
+   while i <= 10:
+       sum += i
+       i += 1
+   print(sum)  # 输出 55
+4. 函数定义：使用 def 关键字，如：
+   def add(a, b):
+       return a + b
+   result = add(3, 5)  # 调用函数，result = 8
